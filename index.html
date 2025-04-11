@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Therrence Alvarez | Graphic Designer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Georgia', serif;
+      color: #fff;
+      background: url('images/wallpaper.png') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+
+    .logo-container {
+      width: 80px;
+      height: 80px;
+      background-color: black;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .logo {
+      width: 60%;
+      height: auto;
+    }
+
+    nav a {
+      margin-left: 40px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-style: italic;
+      font-size: 18px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .divider {
+      border: none;
+      border-top: 2px solid white;
+      margin: 0 40px;
+    }
+
+    .hero {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 600px;
+      margin-top: 0px;
+      margin-left: 240px;
+    }
+
+    .hero-text h2 {
+      font-size: 28px;
+      color: #cfcfcf;
+    }
+
+    .hero-text h1 {
+      font-size: 56px;
+      font-weight: bold;
+    }
+
+    .hero-text p {
+      margin-top: 40px;
+      margin-left: 200px;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+
+    .hero-img img {
+      width: 300px;
+      height: auto;
+      object-fit: contain;
+      margin-top: 100px;
+      margin-right: 440px;
+    }
+
+    @media (max-width: 1024px) {
+      .hero-img img {
+        width: 100%;
+        max-width: 90vw;
+        margin-top: 10px;
+        margin-right: 0;
+      }
+
+      .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+      }
+
+      .hero-text {
+        margin-left: 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo-container">
+      <img src="images/logo.png" alt="Logo" class="logo">
+    </div>
+    <nav>
+      <a href="index.html">About</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="Contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <hr class="divider">
+
+  <main class="hero">
+    <div class="hero-text">
+      <h2>Therrence Alvarez</h2>
+      <h1>Graphic Designer</h1>
+      <p>
+        Creative and detail-oriented graphic designer specializing in branding, marketing, and digital design. Skilled in Adobe Creative Suite, I create engaging visuals for web, social media, and print. Passionate about bringing ideas to life with clean, effective design.
+      </p>
+    </div>
+    <div class="hero-img">
+      <img src="images/profile pic.png" alt="Therrence Alvarez">
+    </div>
+  </main>
+
+</body>
+</html>
